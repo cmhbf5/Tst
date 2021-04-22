@@ -25,7 +25,6 @@ void printArray(int *array, int reversed) {
 int main() {
 	{ //------------------------------------------------------ SECTION A
 		int size = 4;
-		printf("Hello");
 		int count = size;
 		int *array = (int[]){ size, 1, 2, 3, 4 }; ++array;
 		void *list = initList();
