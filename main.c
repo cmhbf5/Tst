@@ -2,6 +2,7 @@
 
 void printList(List *list) {
 	puts("List: ");
+	int a = 1;
 	for(int i = 0; i < getSize(list); ++i) {
 		printf("%d%s",
 				*((int *)getAtIndex(list, i)),
